@@ -1,0 +1,17 @@
+{
+"name":"Notepad",
+"version":"1.0",
+"manifest_version":2,
+"description":"this is a short description for our chrome extension.",
+
+  "browser_action": {
+   "default_icon": "Capture.png",
+   "default_popup": "popup-page.html"
+  }
+  
+  ,
+  "permissions": [
+   "activeTab"
+    ]
+}
+
